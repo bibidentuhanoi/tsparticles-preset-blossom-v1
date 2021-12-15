@@ -1,0 +1,32 @@
+{
+  "name": "tsparticles-preset-blossom-v1",
+  "version": "1.0.0",
+  "description": "tsParticles blossom falling preset",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tsparticles",
+    "particles.js",
+    "particles-ts",
+    "particles.ts",
+    "typescript",
+    "javascript",
+    "web",
+    "html5",
+    "web-design",
+    "webdesign",
+    "css",
+    "html",
+    "css3",
+    "animated",
+    "background",
+    "tsparticles-preset"
+  ],
+  "author": "bibidentuhanoi",
+  "license": "ISC",
+  "dependencies": {
+    "tsparticles": "^1.37.5"
+  }
+}
