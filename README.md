@@ -1,6 +1,6 @@
 # tsParticles Blossom Preset V1
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-blossom-v1/badge?style=rounded)](https://www.jsdelivr.com/package/npm/tsparticles-preset-blossom-v1) [![npmjs](https://badge.fury.io/js/tsparticles-preset-blossom-v1.svg)](https://www.npmjs.com/package/tsparticles-preset-blossom-v1) [![npm](https://img.shields.io/npm/dm/tsparticles-preset-blossom-v1)](https://www.npmjs.com/package/tsparticles-preset-blossom-v1)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-blossom-ver1/badge?style=rounded)](https://www.jsdelivr.com/package/npm/tsparticles-preset-blossom-ver1) [![npmjs](https://badge.fury.io/js/tsparticles-preset-blossom-ver1.svg)](https://www.npmjs.com/package/tsparticles-preset-blossom-ver1) [![npm](https://img.shields.io/npm/dm/tsparticles-preset-blossom-ver1)](https://www.npmjs.com/package/tsparticles-preset-blossom-ver1)
 
 ## Sample
 
@@ -21,7 +21,7 @@ This sample uses the class component syntax, but you can use hooks as well (if t
 ```javascript
 import Particles from "react-tsparticles";
 import { Main } from "tsparticles";
-import { loadBlossomFallingV1 } from "tsparticles-preset-blossom-v1";
+import { loadBlossomFallingVer1 } from "tsparticles-preset-blossom-ver1";
 
 export class ParticlesContainer extends React.PureComponent<IProps> {
   // this customizes the component tsParticles installation
@@ -32,7 +32,7 @@ export class ParticlesContainer extends React.PureComponent<IProps> {
 
   render() {
     const options = {
-      preset: "blossomFallV1",
+      preset: "blossomFallVer1",
     };
 
     return <Particles options={options} init={this.customInit} />;
@@ -44,7 +44,7 @@ If you preffer using function :
 
 ```javascript
 import Particles from "react-tsparticles";
-import { loadBlossomFallingV1 } from "tsparticles-preset-blossom-v1";
+import { loadBlossomFallingV1 } from "tsparticles-preset-blossom-ver1";
 import { Main } from "tsparticles";
 function particlesInit(Main) {
   loadBlossomFallingV1(Main);
